@@ -1,0 +1,184 @@
+f* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    overflow-x: hidden;
+    background-color: aliceblue;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+    background: transparent;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 10000;
+
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.register {
+    background: #000;
+    color: white;
+}
+
+.hero {
+    height: 90vh;
+    background: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/88/ae/f6/view.jpg?w=900&h=500&s=1") center/cover no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.088);
+}
+
+.content {
+    color: rgb(0, 0, 0);
+    position: relative;
+    max-width: 800px;
+    z-index: 1;
+
+}
+
+.content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 22px;
+
+    margin-bottom: 30px;
+}
+
+.content button {
+    padding: 12px 35px;
+    font-size: 18px;
+    border: 2px solid rgb(0, 0, 0);
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.content2 {
+    background-color: none;
+    padding: 100PX 100px;
+    padding-right: 0px;
+
+    margin-right: 700px;
+    line-height: 50px;
+
+}
+
+.heading {
+    font-size: 60px;
+    display: inline;
+
+}
+
+.superheading {
+    font-size: 60px;
+    color: orange;
+    display: inline;
+}
+
+.destinations {
+    font-size: 60px;
+
+}
+
+.para {
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+.btn1 {
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.img {
+    border-radius: 10px;
+    padding: ;
+    display: inline-block;
+    margin-left: 50px;
+    position: relative;
+    top: -60px;
+    background-color: white;
+}
+
+.caption {
+    padding: 40px 20px;
+
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 200px;
+}
+
+.fa-duotone {
+    color: gold;
+    font-size: 20px;
+}
+
+.fa-solid {
+    color: gold;
+    font-size: 20px;
+}
