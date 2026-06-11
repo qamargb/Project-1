@@ -2,12 +2,12 @@ f* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 body {
     overflow-x: hidden;
     background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
 }
 
@@ -17,11 +17,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 70px;
-    background: transparent;
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100%;
+    background-color: whitesmoke;
+   
     z-index: 10000;
 
 }
@@ -56,14 +53,14 @@ nav {
 }
 
 .hero {
-    height: 90vh;
+    height: 100vh;
     background: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/88/ae/f6/view.jpg?w=900&h=500&s=1") center/cover no-repeat;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 60px;
+   
 
 }
 
@@ -128,12 +125,16 @@ nav {
 
 .destinations {
     font-size: 60px;
+    position: relative;
+    bottom: 60px;
 
 }
 
 .para {
     line-height: 20px;
     margin-top: 30px;
+     position: relative;
+    bottom: 80px;
 }
 
 .btn1 {
@@ -143,6 +144,9 @@ nav {
     border: none;
     border-radius: 15px;
     cursor: pointer;
+     position: relative;
+    bottom: 60px;
+}
 }
 
 .img {
